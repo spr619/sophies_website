@@ -1,0 +1,121 @@
+
+/* ----------------basic stuff---------------- */
+body{
+	background-image: url("http://ibmsmartercommerce.sourceforge.net/wp-content/uploads/2012/09/Roses_Bunch_Of_Flowers.jpeg")
+	margin:0;
+}
+h1 {
+	text-align:center; color:white;
+}
+
+p {
+	text-align: center;
+}
+ 
+a {color: #DB7093;}
+a:visited {color:#DB7093;}
+a:hover {color: #000000;}
+a:active { color:#000000;}
+
+#container{
+	width:960px;
+	background-color: white;
+	margin: 0 auto;
+
+}
+
+ul{
+	padding:0;
+	margin:0;
+}
+/* -------------------header------------------- */
+#header {
+	clear: left;
+	background-image: url(//la.c-b.co/Assets/Backgrounds/TopCorkBgr.jpg);
+	padding: 10px 0 40px 0;
+	margin: 0;
+}
+#header h1{
+	background-image: url(//la.c-b.co/Assets/Backgrounds/bg_topnav-repeatx.jpg);
+}
+
+#nav{
+	clear: left;
+	background-color: #F6F7F2;
+	padding: 0;
+	margin: 0;
+	height: 20px;
+	font-family: 'Maven Pro', sans-serif;
+}
+
+#nav ul {
+	list-style-position: initial;
+	list-style-image: initial;
+	list-style: none;
+}
+
+#nav ul li{
+	float: left;
+	margin: 0 65px;
+	font-family: 'Maven Pro', sans-serif;
+	font-weight: bold;
+	background-color: white;
+}
+
+#nav ul ul{
+	display:none;
+}
+
+#nav ul li:hover  > ul{
+	display:block;
+}
+
+#nav a{
+	color: grey;
+	font-family: 'Maven Pro', sans-serif;
+}
+
+#nav a:hover{
+	color: lightblue;
+}
+
+#nav ul ul li{
+	clear:both;
+	margin:0;
+}
+
+/* ---------------content section------------- */
+#content {
+	min-height:800px;
+	background-color: white;
+	padding: 0;
+	margin: 0;
+}
+
+.banner{
+	float: left;
+	padding:0 0 0 10px;
+	margin: 0px;
+}
+
+.box{
+	font-family: 'Arial', serif;
+	width: 266px;
+	height: 242px;
+	float: left;
+	margin: 18px 18px 18px 18px;	
+	list-style: none;
+}
+
+.block{
+	float: left;
+	list-style: none;
+}
+
+/* -------------------footer------------------- */
+#footer {
+	clear: left;
+	background-color: grey;
+	padding: 0;
+	margin: 0;
+}
